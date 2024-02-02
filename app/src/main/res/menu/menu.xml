@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_historias"
+            android:icon="@drawable/iconhistoria"
+            android:title="Mis historia"/>
+        <item
+            android:id="@+id/menu_nuevogrupo"
+            android:icon="@drawable/iconlgrupo"
+            android:title="Nuevo grupo"/>
+        <item
+            android:id="@+id/menu_contactos"
+            android:icon="@drawable/iconcontactos"
+            android:title="Contactos"/>
+        <item
+            android:id="@+id/menu_llamadas"
+            android:icon="@drawable/iconllamadas"
+            android:title="Llamadas"/>
+        <item
+            android:id="@+id/menu_personas"
+            android:icon="@drawable/iconlpersonas"
+            android:title="Personas cerca"/>
+        <item
+            android:id="@+id/menu_sms"
+            android:icon="@drawable/iconsms"
+            android:title="Mensajes guardados"/>
+        <item
+            android:id="@+id/menu_ajustes"
+            android:icon="@drawable/iconajustes"
+            android:title="Ajustes"/>
+    </group>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_invitar"
+                android:icon="@drawable/iconinvitar"
+                android:title="Invitar amigos"/>
+            <item
+                android:id="@+id/menu_aprende"
+                android:icon="@drawable/iconaprende"
+                android:title="Aprende sobre Telegram"/>
+        </menu>
+    </item>
+</menu>
